@@ -1,0 +1,26 @@
+player_id,username,email,registration_date,country,level
+1,ShadowBlade,shadow.blade@gaming.com,2023-06-15,France,42
+2,PixelQueen,pixel.queen@gaming.com,2023-07-22,France,38
+3,DragonSlayer99,dragon.slayer@gaming.com,2023-08-10,Belgique,55
+4,NightWolf,nightwolf,2023-09-05,France,27
+5,CyberNinja,cyber.ninja@gaming.com,15/03/2023,Suisse,61
+6,  StarGazer  ,stargazer@gaming.com,2023-10-18,France,33
+7,ThunderFist,thunder.fist@gaming.com,2023-06-30,Canada,45
+8,MysticRose,mystic.rose@gaming.com,2023-11-02,France,29
+9,IronGolem,iron.golem@gaming.com,2023-12-14,Belgique,51
+10,ShadowBlade,shadow.blade@gaming.com,2023-06-15,France,42
+11,PhoenixRider,,2023-08-25,France,36
+12,VoidWalker,void.walker@gaming.com,2024-01-07,Suisse,44
+13,BlazeMaster,blazemaster@gaming.com,date_inconnue,France,19
+14,FrostBite,frost.bite@gaming.com,2024-02-14,Canada,52
+15,  NightWolf  ,nightwolf,2023-09-05,France,27
+16,LunarEclipse,lunar.eclipse@gaming.com,2024-03-01,France,41
+17,SteelArrow,steel.arrow@gaming.com,2023-07-11,Belgique,37
+18,CosmicDust,,2024-01-20,France,23
+19,QuantumLeap,quantum.leap@gaming.com,2024-04-05,Suisse,48
+20,EmberStrike,ember.strike@gaming.com,2023-09-28,France,31
+21,SilverFang,silver.fang@gaming.com,2024-05-12,France,26
+22,StormBreaker,storm.breaker@gaming.com,30-02-2024,Canada,39
+23,DarkPhoenix,dark.phoenix@gaming.com,2023-11-19,France,57
+24,CrystalMage,crystal.mage@gaming.com,2024-06-01,Belgique,34
+25,TitanForce,titan.force@gaming.com,2024-02-28,France,46
