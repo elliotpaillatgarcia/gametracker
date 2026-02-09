@@ -2,7 +2,7 @@ CREATE TABLE IF NOT EXISTS players (
   player_id INT PRIMARY KEY,
   username VARCHAR(100),
   email VARCHAR(200),
-  registartion_date DATE,
+  registration_date DATE,
   country VARCHAR(100),
   level INT
 );
