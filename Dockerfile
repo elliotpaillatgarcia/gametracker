@@ -14,4 +14,4 @@ COPY . .
 
 RUN chmod +x scripts/*.sh || true
 
-CMD ["bash"]
+CMD ["python", "-m","src.main"]
