@@ -3,7 +3,12 @@ import time
 from contextlib import contextmanager
 import mysql.connector
 from mysql.connector import Error
-from src.config import Config
+
+# Import flexible pour fonctionner en tant que script ou module
+try:
+    from .config import Config
+except ImportError:
+    from config import Config
 
 def get_connection():
     """Cree une connexion a la base de donnees."""
