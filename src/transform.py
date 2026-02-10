@@ -11,9 +11,11 @@ def transform_players(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
 
     # Supprimer les doublons sur player_id
-    df = df.drop_duplicates(subset=['player_id'])
+    df = df.drop_duplicates(subset=['player_id'], keep='first')
     # Nettoyer les espaces des usernames
     df['username'] = df['username'].str.strip()
+    # Supprimer les doublons sur username (après strip)
+    df = df.drop_duplicates(subset=['username'], keep='first')
     # Convertir les dates
     df['registration_date'] = pd.to_datetime(df['registration_date'], errors='coerce')
     # Remplacer NaT par None pour MySQL

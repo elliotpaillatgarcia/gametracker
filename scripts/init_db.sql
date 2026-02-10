@@ -14,6 +14,6 @@ CREATE TABLE IF NOT EXISTS scores (
   score INT,
   duration_minutes INT,
   played_at DATETIME,
-  latform VARCHAR(50),
+  platform VARCHAR(50),
   FOREIGN KEY (player_id) REFERENCES players(player_id)
 );
