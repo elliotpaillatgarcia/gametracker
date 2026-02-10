@@ -14,4 +14,4 @@ COPY . .
 
 RUN chmod +x scripts/*.sh || true
 
-CMD ["python", "-m","src.main"]
+CMD ["bash", "scripts/run_pipeline.sh"]
